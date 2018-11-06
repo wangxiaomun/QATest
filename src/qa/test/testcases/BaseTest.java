@@ -1,28 +1,31 @@
 package qa.test.testcases;
 
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.DataProvider;
+import org.openqa.selenium.chrome.ChromeDriver;
+import qa.test.page.*;
 
 public class BaseTest {
-  @Test(dataProvider = "dp")
-  public void f(Integer n, String s) {
-  }
-  @BeforeMethod
-  public void beforeMethod() {
-  }
+	private WebDriver driver;
+	private final String currentDir = System.getProperty("user.dir");
 
-  @AfterMethod
-  public void afterMethod() {
-  }
+	@Test
+	public void function() throws InterruptedException {
+		HomePage homepage = new HomePage(driver,"file://"+currentDir+"/Resource/index.html");		
+	}
+	
+	@BeforeMethod
+	public void beforeMethod() {
+		System.out.println("launching chrome browser");
+		System.setProperty("webdriver.chrome.driver", currentDir + "/chromedriver");
+		driver = new ChromeDriver();
+	}
 
-
-  @DataProvider
-  public Object[][] dp() {
-    return new Object[][] {
-      new Object[] { 1, "a" },
-      new Object[] { 2, "b" },
-    };
-  }
+	@AfterMethod
+	public void afterMethod() {
+		// Quitting the browser.
+		driver.quit();
+	}
 }
