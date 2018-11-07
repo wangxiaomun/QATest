@@ -2,84 +2,84 @@
 <testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="49174" started-at="2018-11-06T18:01:02Z" finished-at="2018-11-06T18:01:52Z">
+  <suite name="Selenium Suite" duration-ms="37767" started-at="2018-11-07T18:39:40Z" finished-at="2018-11-07T18:40:17Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="49174" started-at="2018-11-06T18:01:02Z" finished-at="2018-11-06T18:01:52Z">
+    <test name="QA Test" duration-ms="37767" started-at="2018-11-07T18:39:40Z" finished-at="2018-11-07T18:40:17Z">
       <class name="qa.test.testcases.HomePageTest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:qa.test.testcases.HomePageTest@4b9e13df]" name="beforeMethod" is-config="true" duration-ms="3526" started-at="2018-11-06T18:01:02Z" finished-at="2018-11-06T18:01:06Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:qa.test.testcases.HomePageTest@4b9e13df]" name="beforeMethod" is-config="true" duration-ms="3019" started-at="2018-11-07T18:39:40Z" finished-at="2018-11-07T18:39:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test1Func()[pri:0, instance:qa.test.testcases.HomePageTest@4b9e13df]" name="test1Func" duration-ms="3017" started-at="2018-11-06T18:01:06Z" finished-at="2018-11-06T18:01:09Z">
+        <test-method status="PASS" signature="test1Func()[pri:0, instance:qa.test.testcases.HomePageTest@4b9e13df]" name="test1Func" duration-ms="2526" started-at="2018-11-07T18:39:43Z" finished-at="2018-11-07T18:39:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1Func -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:qa.test.testcases.HomePageTest@4b9e13df]" name="afterMethod" is-config="true" duration-ms="106" started-at="2018-11-06T18:01:09Z" finished-at="2018-11-06T18:01:09Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:qa.test.testcases.HomePageTest@4b9e13df]" name="afterMethod" is-config="true" duration-ms="114" started-at="2018-11-07T18:39:45Z" finished-at="2018-11-07T18:39:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:qa.test.testcases.HomePageTest@4b9e13df]" name="beforeMethod" is-config="true" duration-ms="2431" started-at="2018-11-06T18:01:09Z" finished-at="2018-11-06T18:01:12Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:qa.test.testcases.HomePageTest@4b9e13df]" name="beforeMethod" is-config="true" duration-ms="2086" started-at="2018-11-07T18:39:45Z" finished-at="2018-11-07T18:39:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test2Func()[pri:0, instance:qa.test.testcases.HomePageTest@4b9e13df]" name="test2Func" duration-ms="6054" started-at="2018-11-06T18:01:12Z" finished-at="2018-11-06T18:01:18Z">
+        <test-method status="PASS" signature="test2Func()[pri:0, instance:qa.test.testcases.HomePageTest@4b9e13df]" name="test2Func" duration-ms="2164" started-at="2018-11-07T18:39:47Z" finished-at="2018-11-07T18:39:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2Func -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:qa.test.testcases.HomePageTest@4b9e13df]" name="afterMethod" is-config="true" duration-ms="111" started-at="2018-11-06T18:01:18Z" finished-at="2018-11-06T18:01:18Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:qa.test.testcases.HomePageTest@4b9e13df]" name="afterMethod" is-config="true" duration-ms="97" started-at="2018-11-07T18:39:50Z" finished-at="2018-11-07T18:39:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:qa.test.testcases.HomePageTest@4b9e13df]" name="beforeMethod" is-config="true" duration-ms="2418" started-at="2018-11-06T18:01:18Z" finished-at="2018-11-06T18:01:20Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:qa.test.testcases.HomePageTest@4b9e13df]" name="beforeMethod" is-config="true" duration-ms="2172" started-at="2018-11-07T18:39:50Z" finished-at="2018-11-07T18:39:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test3Func()[pri:0, instance:qa.test.testcases.HomePageTest@4b9e13df]" name="test3Func" duration-ms="6040" started-at="2018-11-06T18:01:20Z" finished-at="2018-11-06T18:01:26Z">
+        <test-method status="PASS" signature="test3Func()[pri:0, instance:qa.test.testcases.HomePageTest@4b9e13df]" name="test3Func" duration-ms="4248" started-at="2018-11-07T18:39:52Z" finished-at="2018-11-07T18:39:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3Func -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:qa.test.testcases.HomePageTest@4b9e13df]" name="afterMethod" is-config="true" duration-ms="101" started-at="2018-11-06T18:01:26Z" finished-at="2018-11-06T18:01:26Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:qa.test.testcases.HomePageTest@4b9e13df]" name="afterMethod" is-config="true" duration-ms="91" started-at="2018-11-07T18:39:56Z" finished-at="2018-11-07T18:39:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:qa.test.testcases.HomePageTest@4b9e13df]" name="beforeMethod" is-config="true" duration-ms="2376" started-at="2018-11-06T18:01:26Z" finished-at="2018-11-06T18:01:29Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:qa.test.testcases.HomePageTest@4b9e13df]" name="beforeMethod" is-config="true" duration-ms="2244" started-at="2018-11-07T18:39:56Z" finished-at="2018-11-07T18:39:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test4Func()[pri:0, instance:qa.test.testcases.HomePageTest@4b9e13df]" name="test4Func" duration-ms="6041" started-at="2018-11-06T18:01:29Z" finished-at="2018-11-06T18:01:35Z">
+        <test-method status="PASS" signature="test4Func()[pri:0, instance:qa.test.testcases.HomePageTest@4b9e13df]" name="test4Func" duration-ms="2166" started-at="2018-11-07T18:39:58Z" finished-at="2018-11-07T18:40:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test4Func -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:qa.test.testcases.HomePageTest@4b9e13df]" name="afterMethod" is-config="true" duration-ms="101" started-at="2018-11-06T18:01:35Z" finished-at="2018-11-06T18:01:35Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:qa.test.testcases.HomePageTest@4b9e13df]" name="afterMethod" is-config="true" duration-ms="97" started-at="2018-11-07T18:40:01Z" finished-at="2018-11-07T18:40:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:qa.test.testcases.HomePageTest@4b9e13df]" name="beforeMethod" is-config="true" duration-ms="2437" started-at="2018-11-06T18:01:35Z" finished-at="2018-11-06T18:01:37Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:qa.test.testcases.HomePageTest@4b9e13df]" name="beforeMethod" is-config="true" duration-ms="2426" started-at="2018-11-07T18:40:01Z" finished-at="2018-11-07T18:40:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test5Func()[pri:0, instance:qa.test.testcases.HomePageTest@4b9e13df]" name="test5Func" duration-ms="6043" started-at="2018-11-06T18:01:37Z" finished-at="2018-11-06T18:01:43Z">
+        <test-method status="PASS" signature="test5Func()[pri:0, instance:qa.test.testcases.HomePageTest@4b9e13df]" name="test5Func" duration-ms="9644" started-at="2018-11-07T18:40:03Z" finished-at="2018-11-07T18:40:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test5Func -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:qa.test.testcases.HomePageTest@4b9e13df]" name="afterMethod" is-config="true" duration-ms="138" started-at="2018-11-06T18:01:43Z" finished-at="2018-11-06T18:01:43Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:qa.test.testcases.HomePageTest@4b9e13df]" name="afterMethod" is-config="true" duration-ms="92" started-at="2018-11-07T18:40:13Z" finished-at="2018-11-07T18:40:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:qa.test.testcases.HomePageTest@4b9e13df]" name="beforeMethod" is-config="true" duration-ms="2050" started-at="2018-11-06T18:01:43Z" finished-at="2018-11-06T18:01:45Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:qa.test.testcases.HomePageTest@4b9e13df]" name="beforeMethod" is-config="true" duration-ms="2304" started-at="2018-11-07T18:40:13Z" finished-at="2018-11-07T18:40:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test6Func()[pri:0, instance:qa.test.testcases.HomePageTest@4b9e13df]" name="test6Func" duration-ms="6038" started-at="2018-11-06T18:01:45Z" finished-at="2018-11-06T18:01:52Z">
+        <test-method status="PASS" signature="test6Func()[pri:0, instance:qa.test.testcases.HomePageTest@4b9e13df]" name="test6Func" duration-ms="2144" started-at="2018-11-07T18:40:15Z" finished-at="2018-11-07T18:40:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test6Func -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:qa.test.testcases.HomePageTest@4b9e13df]" name="afterMethod" is-config="true" duration-ms="98" started-at="2018-11-06T18:01:52Z" finished-at="2018-11-06T18:01:52Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:qa.test.testcases.HomePageTest@4b9e13df]" name="afterMethod" is-config="true" duration-ms="89" started-at="2018-11-07T18:40:17Z" finished-at="2018-11-07T18:40:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- qa.test.testcases.HomePageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- QA Test -->
+  </suite> <!-- Selenium Suite -->
 </testng-results>

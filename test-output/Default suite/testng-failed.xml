@@ -6,7 +6,7 @@
       <class name="qa.test.testcases.HomePageTest">
         <methods>
           <include name="afterMethod"/>
-          <include name="testFunc"/>
+          <include name="test2Func"/>
           <include name="beforeMethod"/>
         </methods>
       </class> <!-- qa.test.testcases.HomePageTest -->

@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Selenium Suite">
+	<test name="QA Test">
+		<classes>
+			<class name="qa.test.testcases.HomePageTest" />
+		</classes>
+	</test>
+</suite>
